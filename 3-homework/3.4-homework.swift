@@ -16,7 +16,7 @@ all.0 += all.1
 
 print(all)
 
-//--------------- If we want -22 print on the console ----------------
+//  If we want -22 print on the console 
 
 let newAll: (Int, Float, String, Bool) = (Int(all.0), b, hiText, itIsBool)
 
