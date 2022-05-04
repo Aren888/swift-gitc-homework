@@ -11,11 +11,7 @@ var a: Int
 a = 3
 
 if a >= 0 && a <= 5 {
-  
     print("$$$.$$$")
-  
 } else {
-  
     print("@@@.@@@")
-  
 }
