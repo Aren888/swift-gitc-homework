@@ -28,7 +28,7 @@
 
 var workerFirstName: String = "Anna"
 var workerLastName: String = "Manukyan"
-var workerType: String = "desinger" //  "desinger"  "PM"
+var workerType: String = "developer" //  "desinger"  "PM"
 
 var salary: Int
 
