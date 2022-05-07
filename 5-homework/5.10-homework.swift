@@ -6,8 +6,10 @@
 private let items: [String] = ["Hello", "iOS", "GITC"]
 
 private func getItemsMiddleCharacter(_ items: [String]) -> Character? {
+ 
         if items.isEmpty || items.count%2 == 0 { return nil }
         let middleItem = items[items.count/2]
+ 
         if middleItem.count%2 == 0 { return nil }
         let middleCharacter: Character = middleItem[middleItem.index(middleItem.startIndex, offsetBy: middleItem.count/2)]
         return middleCharacter
