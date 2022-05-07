@@ -5,7 +5,6 @@
 
 let a = [1, 4, 5, 7, 0, -5]
 
-print(a[5])
 print(a.last!)
 print(a[a.endIndex - 1])
 print(a[a.count - 1])
