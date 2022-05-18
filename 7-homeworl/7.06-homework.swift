@@ -5,14 +5,15 @@
 */
 var arr1 = [4, 54, 36, 127]
 
-for  var i in arr1 {
-
+for  i in arr1 {
+    
+    var item = i
     var myArr: [Int] = [ ]
 
-    while i != 0 {
+    while item != 0 {
 
-        let c = i % 10
-        i = i / 10
+        let c = item % 10
+        item = item / 10
         myArr.insert(c, at: myArr.startIndex)
     }
     print(myArr)
