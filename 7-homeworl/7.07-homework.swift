@@ -15,9 +15,9 @@
 let x = 7
 var i = 0
 
-while i < 7 {
+while i <= 7 {
     
-    if i == 0 || i == (x - 1) {
+    if i == 0 || i == x {
         print(" ******")
     } else {
         print("*      *")
