@@ -17,10 +17,11 @@ var i = 0
 
 while i < 7 {
     
-    if i == 0 || i == 6 {
+    if i == 0 || i == (x - 1) {
         print(" ******")
     } else {
         print("*      *")
     }
     i += 1
 }
+
