@@ -3,8 +3,8 @@
  ջնջել str-ի վերջին սինվոլը
  */
 
-let str :String = "Hello"
-var x :String = str
+let str: String = "Hello"
+var x: String = str
 let endIndex = x.index(before: x.endIndex)
 
 x.remove(at: endIndex)
