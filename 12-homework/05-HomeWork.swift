@@ -96,3 +96,41 @@ print(getAssignments(identifier: .myAssignmentsTime(time: .workStartTime)))
 
 
 
+//  ------------------------------   Final Example   ------------------------------
+
+
+/*
+     Նոր ստեղծված է - newly created
+     ընթացքի մեջ է - is in process
+     ստուգվում է - is checked
+     ավարտված է - finished
+ */
+
+
+enum WorkersAssignments {
+    case newCreated(date: String)
+    case isInProcess(date: String)
+    case chakingProcess(date: String)
+    case complatedProcess(date: String)
+}
+
+var taskOne: WorkersAssignments = WorkersAssignments.newCreated(date: "12:00")
+
+taskOne = WorkersAssignments.isInProcess(date: "13:00")
+
+taskOne = WorkersAssignments.chakingProcess(date: "14:00")
+
+taskOne = WorkersAssignments.complatedProcess(date: "14:30")
+
+switch taskOne {
+case WorkersAssignments.newCreated(let date):
+    print("task created at \(date)")
+case WorkersAssignments.isInProcess(date: let date):
+    print("task is in process at \(date)")
+case WorkersAssignments.chakingProcess(date: let date):
+    print("task chaking Process at \(date)")
+case WorkersAssignments.complatedProcess(date: let date):
+    print("task complated Process Process at \(date)")
+}
+
+
